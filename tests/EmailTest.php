@@ -1,6 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+include '../src/Email.php'; 
+
 final class EmailTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress()
