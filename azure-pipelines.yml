@@ -24,4 +24,3 @@ steps:
 
 - script: phpunit
   displayName: 'Run tests with phpunit'
-  continueOnError: true
