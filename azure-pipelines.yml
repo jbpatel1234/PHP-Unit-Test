@@ -24,3 +24,8 @@ steps:
 
 - script: phpunit
   displayName: 'Run tests with phpunit'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    publishLocation: 'pipeline'
